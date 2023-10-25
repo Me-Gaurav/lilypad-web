@@ -1,0 +1,23 @@
+.about-first-section-container {
+    background-image: url("../../../assets/images/Vector9.svg");
+    height: 44vh
+}
+
+.about-first-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-first-title {
+    color: white;
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.about-first-description {
+    color: white;
+    letter-spacing: 0.4px;
+}

@@ -1,0 +1,27 @@
+.about-second-section-container {
+    height: 100vh;
+}
+
+.about-second-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 10%;
+    gap: 10px;
+}
+
+.about-second-title {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.about-second-description {
+    letter-spacing: 0.4px;
+    line-height: 27px;
+}
+
+.about-second-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

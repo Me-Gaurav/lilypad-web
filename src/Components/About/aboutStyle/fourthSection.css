@@ -1,0 +1,29 @@
+.about-fourth-section-container {
+    padding: 5% 0%;
+}
+
+.about-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3% 24%;
+    gap: 10px;
+}
+
+.about-fourth-title {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.about-fourth-description {
+    letter-spacing: 0.4px;
+    line-height: 27px;
+}
+
+.about-bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
