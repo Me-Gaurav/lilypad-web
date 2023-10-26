@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col, Typography, Button, Image, Space } from 'antd'
+import { useNavigate } from 'react-router-dom'
 //@ts-ignore
 import frame1 from "../../assets/images/Frame1.svg"
 //@ts-ignore
@@ -9,6 +10,9 @@ import "./layoutStyle/footer.css"
 const { Text } = Typography
 
 const Footer = () => {
+
+    const navigate = useNavigate()
+
     return (
         <Row className="footer-container">
 
@@ -25,7 +29,7 @@ const Footer = () => {
 
                     <Col span={5} className='footer-menu-container'>
                         <Space direction='vertical' size={15}>
-                            <Text className='footer-menu-text'>Our Vision</Text>
+                            <Text className='footer-menu-text' onClick={() => navigate("/vision")}>Our Vision</Text>
                             <Text className='footer-menu-text'>About Us</Text>
                             <Text className='footer-menu-text'>Contact Us</Text>
                         </Space>

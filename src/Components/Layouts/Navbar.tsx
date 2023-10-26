@@ -40,10 +40,12 @@ const Navbar = () => {
     };
 
     const onClick: MenuProps['onClick'] = (e) => {
-        if(e.key === "aboutUs"){
+        if (e.key === "aboutUs") {
             navigate("/about")
+        } else if (e.key === "contactUs") {
+            navigate("/contact")
         }
-      };
+    };
 
     return (
         <Menu
