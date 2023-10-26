@@ -32,11 +32,21 @@
         padding: 0% 0%;
     }
 
+    .vector12 {
+        width: 320px !important;
+        margin-bottom: 10%;
+    }
+
 }
 
 @media screen and (min-width: 576px) {
     .about-top-container {
         padding: 10% 24%;
+    }
+
+    .vector12 {
+        width: 600px !important;
+        margin-bottom: 5%;
     }
 }
 
@@ -47,5 +57,10 @@
 
     .about-fourth-section-container {
         padding: 5% 0%;
+    }
+
+    .vector12 {
+        width: 900px !important;
+        margin-bottom: 0%;
     }
 }

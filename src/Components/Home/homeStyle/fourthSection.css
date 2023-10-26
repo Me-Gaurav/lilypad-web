@@ -76,6 +76,7 @@
 @media screen and (min-width: 200px) {
     .fourth-section-container {
         height: 45vh;
+        margin-bottom: 80%;
     }
 
     .fourth-left-container {
@@ -86,6 +87,7 @@
 @media screen and (min-width: 576px) {
     .fourth-section-container {
         height: 45vh;
+        margin-bottom: 0%;
     }
 
     .fourth-left-container {
@@ -96,6 +98,7 @@
 @media screen and (min-width: 860px) {
     .fourth-section-container {
         height: 100vh;
+        margin-bottom: 0%;
     }
 
     .fourth-left-container {

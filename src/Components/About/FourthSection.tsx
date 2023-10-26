@@ -15,7 +15,7 @@ const FourthSection = () => {
                 <Text className='about-fourth-description'>In January, we embarked on a journey, researching every aspect of the EV and renewable industry to provide better and easier solutions to people. With unwavering determination, we envisioned a future where renewable energy drives sustainable progress, revolutionizing clean mobility and harnessing renewable resources.</Text>
             </Col>
             <Col span={24} className='about-bottom-container'>
-                <Image src={vector12} preview={false} width={900}/>
+                <Image src={vector12} preview={false} className='vector12' />
             </Col>
         </Row>
     )
