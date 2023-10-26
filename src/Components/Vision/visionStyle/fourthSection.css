@@ -1,0 +1,28 @@
+.vision-fourth-section-container {
+    height: 90vh;
+}
+
+.vision-fourth-left-container {
+    background-image: url("../../../assets/images//Vector16.svg");
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.vision-fourth-title {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.vision-fourth-right-container {
+    background-color: #F9F9F9;
+    padding: 0% 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-fourth-img {
+    filter: grayscale(100%);
+}

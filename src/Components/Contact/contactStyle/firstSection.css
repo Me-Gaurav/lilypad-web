@@ -1,0 +1,36 @@
+.contact-first-section-container {
+    height: 100vh;
+}
+
+.contact-first-left-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 6%;
+}
+
+.contact-first-left-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-first-sub-title {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: gray;
+    line-height: 10px;
+}
+
+.contact-first-title {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.contact-first-description {
+    letter-spacing: 0.4px;
+    width: 60%;
+    color: gray;
+}

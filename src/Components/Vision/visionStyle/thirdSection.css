@@ -1,0 +1,33 @@
+.vision-third-section-container {
+    height: 100vh;
+}
+
+.vision-third-left-container {
+    padding: 0% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vision-third-title {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.vision-third-sub-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.vision-third-description {
+    letter-spacing: 0.4px;
+    line-height: 25px;
+}
+
+.vision-third-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
