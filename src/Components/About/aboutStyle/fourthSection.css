@@ -1,14 +1,9 @@
-.about-fourth-section-container {
-    padding: 5% 0%;
-}
-
 .about-top-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3% 24%;
     gap: 10px;
 }
 
@@ -26,4 +21,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 200px) {
+    .about-top-container {
+        padding: 10% 10%;
+    }
+
+    .about-fourth-section-container {
+        padding: 0% 0%;
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+    .about-top-container {
+        padding: 10% 24%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .about-top-container {
+        padding: 3% 24%;
+    }
+
+    .about-fourth-section-container {
+        padding: 5% 0%;
+    }
 }

@@ -11,7 +11,7 @@ const ThirdSection = () => {
     return (
         <Row className='third-section-container'>
             
-            <Col span={10} className='third-left-container'>
+            <Col xs={24} md={12} lg={10} className='third-left-container'>
                 <Col className='third-left-sub-container'>
                     <Text className='third-title'>Most Viewed Products</Text>
                     <Text className='third-description'>Making the right choice begins with exploring what's popular and trusted by fellow enthusiasts. Here are the hottest picks, the crowd favorites, and the top choices that have captured the attention of our community</Text>
@@ -19,7 +19,7 @@ const ThirdSection = () => {
                 </Col>
             </Col>
 
-            <Col span={14} className='third-right-container'>
+            <Col xs={24} md={12} lg={14} className='third-right-container'>
                 <Card hoverable className='third-card'>
                     <Col span={24} className='third-card-img-container'>
                         <Image className='third-card-img' alt="example" width={200} src={vector5} preview={false} />

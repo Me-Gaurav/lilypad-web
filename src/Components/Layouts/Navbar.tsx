@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Menu, MenuProps, Image } from 'antd'
+import { useNavigate } from 'react-router-dom'
 //@ts-ignore
 import bag from "../../assets/images/bag.svg"
 //@ts-ignore
 import user from "../../assets/images/user.svg"
 import "./layoutStyle/navbar.css"
-import { useNavigate } from 'react-router-dom'
 
 const items: MenuProps['items'] = [
     {

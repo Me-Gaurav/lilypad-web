@@ -5,7 +5,6 @@
 
 /* container */
 .second-main-container {
-    height: 100vh;
     overflow: hidden;
 }
 
@@ -15,7 +14,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8% 12%;
 }
 
 .second-left-sub-container {
@@ -61,4 +59,42 @@
     z-index: 100;
     color: #b8b6b6;
     mix-blend-mode: difference;
+}
+
+@media screen and (min-width: 200px) {
+    .second-main-container {
+        height: 100vh;
+    }
+
+    .second-left-container {
+        padding: 0% 8%;
+    }
+
+    .second-style {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .second-main-container {
+        height: 45vh;
+    }
+
+    .second-style {
+        display: flex;
+    }
+
+    .second-left-container {
+        padding: 4% 4%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .second-main-container {
+        height: 100vh;
+    }
+
+    .second-left-container {
+        padding: 8% 12%;
+    }
 }

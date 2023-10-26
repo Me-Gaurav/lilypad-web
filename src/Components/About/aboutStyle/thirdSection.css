@@ -1,11 +1,5 @@
 .about-third-section-container {
-    height: 85vh;
     background-color: #121E1D;
-}
-
-.about-third-left-container{
-    display: flex;
-    justify-content: end;
 }
 
 .vector11 {
@@ -18,7 +12,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0% 10%;
 }
 
 .about-third-title {
@@ -31,4 +24,49 @@
     color: white;
     letter-spacing: 0.4px;
     line-height: 27px;
+}
+
+@media screen and (min-width: 200px) {
+    .about-third-left-container {
+        display: none;
+    }
+
+    .about-third-section-container {
+        height: 55vh;
+    }
+
+    .about-third-right-container {
+        text-align: center;
+        padding: 0% 10%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .about-third-left-container {
+        display: flex;
+        justify-content: end;
+    }
+
+    .about-third-section-container {
+        height: 40vh;
+    }
+
+    .about-third-right-container {
+        text-align: left;
+        padding: 0% 4%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .navbar-menu {
+        height: 11vh;
+    }
+
+    .about-third-section-container {
+        height: 85vh;
+    }
+
+    .about-third-right-container {
+        padding: 0% 10%;
+    }
 }
