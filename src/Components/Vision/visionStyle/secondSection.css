@@ -1,0 +1,40 @@
+.vision-second-section-container{
+    height: 85vh;
+    background-color: #121E1D;
+}
+
+.vision-second-left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0% 6%;
+    align-items: center;
+}
+
+.vision-second-title{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 55px;
+    color: white;
+}
+
+.vision-second-title span{
+    color: #19DB92;
+}
+
+.vision-second-description{
+    color: white;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+}
+
+.vision-second-right-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.vision-hands-img{
+    opacity: 20%;
+}

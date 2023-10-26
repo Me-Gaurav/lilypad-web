@@ -1,0 +1,11 @@
+.vision-fifth-section-container{
+    display: flex;
+    justify-content: center;
+    padding: 6% 15%;
+}
+
+.vision-fifth-col-1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
