@@ -32,6 +32,7 @@
     }
 
     .about-third-section-container {
+        margin-top: 14%;
         height: 55vh;
     }
 
@@ -48,6 +49,7 @@
     }
 
     .about-third-section-container {
+        margin-top: 0%;
         height: 40vh;
     }
 
