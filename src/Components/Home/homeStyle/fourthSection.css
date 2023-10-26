@@ -70,3 +70,35 @@
 .fourth-card-description-container {
     margin-top: 4%;
 }
+
+
+
+@media screen and (min-width: 200px) {
+    .fourth-section-container {
+        height: 45vh;
+    }
+
+    .fourth-left-container {
+        padding: 6% 8%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .fourth-section-container {
+        height: 45vh;
+    }
+
+    .fourth-left-container {
+        padding: 3% 4%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .fourth-section-container {
+        height: 100vh;
+    }
+
+    .fourth-left-container {
+        padding: 6% 8%;
+    }
+}

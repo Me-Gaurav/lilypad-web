@@ -12,15 +12,15 @@ const FourthSection = () => {
     return (
         <Row className='fourth-section-container'>
 
-            <Col span={11} className='fourth-left-container'>
+            <Col xs={24} md={10} lg={11} className='fourth-left-container'>
                 <Col span={24} className='fourth-left-sub-container'>
                     <Image src={vector6} width={130} preview={false} />
                     <Text className='fourth-title'>What People Are Saying</Text>
                 </Col>
             </Col>
 
-            <Col span={13} className='fourth-right-container'>
-                <Col span={13} className='fourth-card-container'>
+            <Col xs={24} md={14} lg={13} className='fourth-right-container'>
+                <Col xs={17} md={17} lg={13} className='fourth-card-container'>
                     <Col span={24} className='fourth-card-avatar-container'>
                         <Col span={6}>
                             <Image src={vector8} width={70} className='fourth-card-avatar' />

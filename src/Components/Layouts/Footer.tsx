@@ -19,7 +19,7 @@ const Footer = () => {
             <Col span={24}>
                 <Row className='footer-top-container'>
 
-                    <Col span={7} className='footer-logo-container'>
+                    <Col xs={24} lg={7} className='footer-logo-container'>
                         <Col className='footer-logo-sub-container'>
                             <Image src={logo} preview={false} width={170} className='logo' />
                             <Text className='footer-logo-text'>Accelerating a sustainable energy future in india</Text>
@@ -27,7 +27,7 @@ const Footer = () => {
                         </Col>
                     </Col>
 
-                    <Col span={5} className='footer-menu-container'>
+                    <Col xs={24} lg={5} className='footer-menu-container'>
                         <Space direction='vertical' size={15}>
                             <Text className='footer-menu-text' onClick={() => navigate("/vision")}>Our Vision</Text>
                             <Text className='footer-menu-text'>About Us</Text>
@@ -35,16 +35,16 @@ const Footer = () => {
                         </Space>
                     </Col>
 
-                    <Col span={5} className='footer-menu-container'>
-                        <Space direction='vertical' size={15}>
+                    <Col xs={24} lg={5} className='footer-menu-container'>
+                        <Space direction='vertical' size={15} align='center'>
                             <Text className='footer-menu-text'>Privacy Policy</Text>
                             <Text className='footer-menu-text'>Terms & Conditions</Text>
                             <Text className='footer-menu-text'>Legal and Privacy</Text>
                         </Space>
                     </Col>
 
-                    <Col span={7} className='footer-menu-container'>
-                        <Space direction='vertical' size={15}>
+                    <Col xs={24} lg={7} className='footer-menu-container'>
+                        <Space direction='vertical' size={15} align='center'>
                             <Text className='social-media-text'>Social Media</Text>
                             <Image src={frame1} width={150} />
                         </Space>

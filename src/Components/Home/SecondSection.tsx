@@ -10,7 +10,7 @@ const SecondSection = () => {
     return (
         <Row className='second-main-container'>
 
-            <Col span={16} className='second-left-container'>
+            <Col xs={24} md={14} lg={16} className='second-left-container'>
                 <Col className='second-left-sub-container'>
                     <Text className='second-title'>We are here to support your EV transition!!</Text>
                     <Text className='second-description'>At Lilypad, we're not just here to sell electric vehicles – we're here to revolutionize the way you move. We are passionate advocates for electric mobility, and our primary goal is to enable you to make the right choice.</Text>
@@ -18,7 +18,7 @@ const SecondSection = () => {
                 </Col>
             </Col>
 
-            <Col span={8} className='second-right-container' style={{ backgroundImage: `url(${vector3})` }}>
+            <Col xs={24} md={10} lg={8} className='second-right-container' style={{ backgroundImage: `url(${vector3})` }}>
                 <Text className='second-style'>STYLE</Text>
             </Col>
 

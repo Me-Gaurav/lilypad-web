@@ -1,9 +1,26 @@
-.navbar-menu{
+.navbar-menu {
     padding: 0% 5%;
     background-color: white;
     color: black;
     align-items: center;
     justify-content: end;
     gap: 20px;
-    height: 11vh;
+}
+
+@media screen and (min-width: 200px) {
+    .navbar-menu {
+        height: 8vh;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .navbar-menu {
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .navbar-menu {
+        height: 11vh;
+    }
 }
