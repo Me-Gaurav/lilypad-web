@@ -30,8 +30,8 @@ const Footer = () => {
                     <Col xs={24} lg={5} className='footer-menu-container'>
                         <Space direction='vertical' size={15}>
                             <Text className='footer-menu-text' onClick={() => navigate("/vision")}>Our Vision</Text>
-                            <Text className='footer-menu-text'>About Us</Text>
-                            <Text className='footer-menu-text'>Contact Us</Text>
+                            <Text className='footer-menu-text' onClick={() => navigate("/about")}>About Us</Text>
+                            <Text className='footer-menu-text' onClick={() => navigate("/contact")}>Contact Us</Text>
                         </Space>
                     </Col>
 

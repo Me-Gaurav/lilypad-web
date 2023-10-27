@@ -19,23 +19,23 @@ const FifthSection = () => {
     return (
         <div className='vision-fifth-section-container'>
             <Row gutter={[35, 25]}>
-                <Col span={10} className='vision-fifth-col-1'>
+                <Col xs={24} md={11} lg={10} className='vision-fifth-col-1'>
                     <Image src={vector17} preview={false} width={354} />
                     <Image src={vector18} preview={false} width={354} />
                 </Col>
-                <Col span={14} className='vision-fifth-col-2'>
+                <Col xs={0} md={13} lg={14} className='vision-fifth-col-2'>
                     <Image src={vector19} preview={false} width={466} />
                 </Col>
                 <Col span={24}>
                     <Row>
                         <Col span={8}>
-                            <Image src={vector20} preview={false} width={260} />
+                            <Image src={vector20} preview={false} className='bottom-imgs' />
                         </Col>
                         <Col span={8}>
-                            <Image src={vector21} preview={false} width={260} />
+                            <Image src={vector21} preview={false} className='bottom-imgs' />
                         </Col>
                         <Col span={8}>
-                            <Image src={vector22} preview={false} width={260} />
+                            <Image src={vector22} preview={false} className='bottom-imgs' />
                         </Col>
                     </Row>
                 </Col>

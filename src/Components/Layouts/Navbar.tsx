@@ -1,23 +1,27 @@
 import React, { useState } from 'react'
-import { Menu, MenuProps, Image } from 'antd'
+import { Menu, MenuProps, Image, Typography, Col, Row } from 'antd'
 import { useNavigate } from 'react-router-dom'
+//@ts-ignore
+import logo from "../../assets/images/darkLogo.svg"
 //@ts-ignore
 import bag from "../../assets/images/bag.svg"
 //@ts-ignore
 import user from "../../assets/images/user.svg"
 import "./layoutStyle/navbar.css"
 
+const { Text } = Typography
+
 const items: MenuProps['items'] = [
     {
-        label: 'Home',
+        label: <Text className='nav-item'>Home</Text>,
         key: 'home',
     },
     {
-        label: 'About Us',
+        label: <Text className='nav-item'>About Us</Text>,
         key: 'aboutUs',
     },
     {
-        label: 'Contact Us',
+        label: <Text className='nav-item'>Contact Us</Text>,
         key: 'contactUs',
     },
     {
@@ -44,19 +48,28 @@ const Navbar = () => {
             navigate("/about")
         } else if (e.key === "contactUs") {
             navigate("/contact")
+        } else if (e.key === "home") {
+            navigate("/")
         }
     };
 
     return (
-        <Menu
-            className='navbar-menu'
-            theme="dark"
-            onClick={onClick}
-            mode={collapsed ? 'vertical' : 'horizontal'}
-            defaultSelectedKeys={['1']}
-            inlineCollapsed={collapsed}
-            items={items}
-        />
+        <Row>
+            <Col xs={0} md={5} className='nav-logo-container'>
+                <Image src={logo} className='nav-logo'/>
+            </Col>
+            <Col xs={24} lg={19}>
+                <Menu
+                    className='navbar-menu'
+                    theme="dark"
+                    onClick={onClick}
+                    mode={collapsed ? 'vertical' : 'horizontal'}
+                    defaultSelectedKeys={['1']}
+                    inlineCollapsed={collapsed}
+                    items={items}
+                />
+            </Col>
+        </Row>
     )
 }
 

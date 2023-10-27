@@ -10,10 +10,9 @@ const { Text } = Typography
 const FourthSection = () => {
     return (
         <Row className='vision-fourth-section-container'>
-            <Col span={11} className='vision-fourth-left-container'>
-                {/* <Image src={vector16} width={500} preview={false} className='vision-fourth-img' /> */}
+            <Col xs={24} md={12} lg={11} className='vision-fourth-left-container'>
             </Col>
-            <Col span={13} className='vision-fourth-right-container'>
+            <Col xs={24} md={12} lg={13} className='vision-fourth-right-container'>
                 <Text className='vision-fourth-title'>Contribution to India's EV Growth</Text>
             </Col>
         </Row>
