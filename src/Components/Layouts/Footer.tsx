@@ -46,7 +46,7 @@ const Footer = () => {
                     <Col xs={24} lg={7} className='footer-menu-container'>
                         <Space direction='vertical' size={15} align='center'>
                             <Text className='social-media-text'>Social Media</Text>
-                            <Image src={frame1} width={150} />
+                            <Image src={frame1} width={150} preview={false} />
                         </Space>
                     </Col>
 

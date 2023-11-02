@@ -30,15 +30,15 @@
 /* right container */
 .fourth-right-container {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     background: linear-gradient(to right, #19DB92, #04B2A9);
 }
 
 /* cards */
 .fourth-card-container {
-    box-shadow: 5px 5px 10px #aaaaaa92;
+    border: 2px solid rgb(230, 230, 230);
     background-color: white;
     padding: 5% 5%;
     border-radius: 15px;
@@ -79,6 +79,10 @@
         margin-bottom: 80%;
     }
 
+    .custom-caraousel {
+        margin-top: 17%;
+    }
+
     .fourth-left-container {
         padding: 6% 8%;
     }
@@ -90,6 +94,18 @@
         margin-bottom: 0%;
     }
 
+    .custom-caraousel {
+        margin-top: 28%;
+    }
+
+    .custom-caraousel {
+        margin-left: -30%;
+    }
+
+    .custom-caraousel .slick-list .slick-slide.slick-active {
+        margin-right: -3.5%;
+    }
+
     .fourth-left-container {
         padding: 3% 4%;
     }
@@ -99,6 +115,10 @@
     .fourth-section-container {
         height: 100vh;
         margin-bottom: 0%;
+    }
+
+    .custom-caraousel {
+        margin-top: 18%;
     }
 
     .fourth-left-container {

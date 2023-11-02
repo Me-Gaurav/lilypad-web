@@ -84,7 +84,7 @@ const Navbar = () => {
                 windowWidth > 500 ? (
                     <Row>
                         <Col xs={0} md={5} className='nav-logo-container'>
-                            <Image src={logo} className='nav-logo' />
+                            <Image src={logo} className='nav-logo' preview={false} />
                         </Col>
                         <Col xs={24} md={19} lg={19}>
                             <Menu
@@ -101,7 +101,7 @@ const Navbar = () => {
                     <>
                         <Row>
                             <Col span={5} className='nav-logo-container'>
-                                <Image src={logo} className='nav-logo' />
+                                <Image src={logo} className='nav-logo' preview={false} />
                             </Col>
                             <Col span={18}>
                                 <Row justify="end" align="middle" className='mobile-navbar' gutter={30}>
